@@ -22,7 +22,7 @@ class Forest:
 
         self.nodes[n].parent = temp
         return temp
-
+Dfas
     def merge(self, a, b):
         if self.nodes[a].rank > self.nodes[b].rank:
             self.nodes[b].parent = a
